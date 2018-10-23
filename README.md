@@ -6,7 +6,7 @@ Faisal Firman Hakim     (10)
 Wahyu Arum              (26)
 
 # Judul aplikasi dan deskripsi singkatnya 
-Meme adalah aplikasi yang berisi tentang karakter-karakter meme beserta penjelasannya dan membuat meme gambar wajah 
+Meme Creator adalah aplikasi yang berisi tentang karakter-karakter meme beserta penjelasannya dan mengganti wajah dengan meme 
 
 # Requirement (Android OS and level)
  minSdkVersion yang digunakan 15 
