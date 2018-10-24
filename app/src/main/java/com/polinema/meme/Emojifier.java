@@ -60,19 +60,19 @@ class Emojifier {
                 switch (whichEmoji(face)) {
                     case SMILE:
                         emojiBitmap = BitmapFactory.decodeResource(context.getResources(),
-                                R.drawable.troll1);
+                                R.drawable.troll2);
                         break;
                     case FROWN:
                         emojiBitmap = BitmapFactory.decodeResource(context.getResources(),
-                                R.drawable.alone);
+                                R.drawable.herp);
                         break;
                     case LEFT_WINK:
                         emojiBitmap = BitmapFactory.decodeResource(context.getResources(),
-                                R.drawable.yaoming1);
+                                R.drawable.yaoming2);
                         break;
                     case RIGHT_WINK:
                         emojiBitmap = BitmapFactory.decodeResource(context.getResources(),
-                                R.drawable.yaoming2);
+                                R.drawable.yaoming1);
                         break;
                     case LEFT_WINK_FROWN:
                         emojiBitmap = BitmapFactory.decodeResource(context.getResources(),
