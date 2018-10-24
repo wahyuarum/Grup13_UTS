@@ -7,7 +7,7 @@
 
     <ImageView
         android:layout_alignParentTop="true"
-        android:background="@drawable/cv1"
+        android:background="@drawable/meme1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true" />
@@ -15,8 +15,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="-Citra Catering's-"
         android:fontFamily="sans-serif-smallcaps"
+        android:text="Are you sure??"
         android:textStyle="bold"
         android:textSize="30dp"
         android:textColor="@color/Magenta"

@@ -64,7 +64,7 @@ public class Main2Activity extends AppCompatActivity {
      * OnClick method for "Emojify Me!" Button. Launches the camera app.
      */
     @OnClick(R.id.emojify_button)
-    public void emojifyMe() {
+    public void emojifyMe(View view) {
         // Check for the external storage permission
         if (ContextCompat.checkSelfPermission(this,
                 Manifest.permission.WRITE_EXTERNAL_STORAGE)

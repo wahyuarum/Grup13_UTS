@@ -10,11 +10,11 @@ import android.widget.Toast;
 import com.google.android.gms.vision.Frame;
 import com.google.android.gms.vision.face.Face;
 import com.google.android.gms.vision.face.FaceDetector;
+//import com.google.android.gms.vision.face.SafeFaceDetector;
 
 import timber.log.Timber;
 
 class Emojifier {
-
 
     private static final float EMOJI_SCALE_FACTOR = .9f;
     private static final double SMILING_PROB_THRESHOLD = .15;
@@ -60,35 +60,35 @@ class Emojifier {
                 switch (whichEmoji(face)) {
                     case SMILE:
                         emojiBitmap = BitmapFactory.decodeResource(context.getResources(),
-                                R.drawable.smile);
+                                R.drawable.troll1);
                         break;
                     case FROWN:
                         emojiBitmap = BitmapFactory.decodeResource(context.getResources(),
-                                R.drawable.frown);
+                                R.drawable.alone);
                         break;
                     case LEFT_WINK:
                         emojiBitmap = BitmapFactory.decodeResource(context.getResources(),
-                                R.drawable.leftwink);
+                                R.drawable.yaoming1);
                         break;
                     case RIGHT_WINK:
                         emojiBitmap = BitmapFactory.decodeResource(context.getResources(),
-                                R.drawable.rightwink);
+                                R.drawable.yaoming2);
                         break;
                     case LEFT_WINK_FROWN:
                         emojiBitmap = BitmapFactory.decodeResource(context.getResources(),
-                                R.drawable.leftwinkfrown);
+                                R.drawable.tugh);
                         break;
                     case RIGHT_WINK_FROWN:
                         emojiBitmap = BitmapFactory.decodeResource(context.getResources(),
-                                R.drawable.rightwinkfrown);
+                                R.drawable.mikir);
                         break;
                     case CLOSED_EYE_SMILE:
                         emojiBitmap = BitmapFactory.decodeResource(context.getResources(),
-                                R.drawable.closed_smile);
+                                R.drawable.lol);
                         break;
                     case CLOSED_EYE_FROWN:
                         emojiBitmap = BitmapFactory.decodeResource(context.getResources(),
-                                R.drawable.closed_frown);
+                                R.drawable.bitchpls);
                         break;
                     default:
                         emojiBitmap = null;

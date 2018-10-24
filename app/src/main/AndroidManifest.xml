@@ -50,6 +50,9 @@
         <activity android:name=".FcmActivity" />
         <activity android:name=".Main2Activity"
             android:screenOrientation="portrait">
+            <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
         </activity>
     </application>
 
