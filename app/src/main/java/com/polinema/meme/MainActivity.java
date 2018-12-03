@@ -1,6 +1,7 @@
 package com.polinema.meme;
 
 import android.content.Intent;
+import android.location.Location;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

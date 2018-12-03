@@ -12,4 +12,6 @@
     <string name="permission_denied">Permission denied</string>
     <string name="imageview_description">The imageview that contains the Meme picture</string>
     <string name="no_faces_message">No Faces Detected</string>
+    <string name="location_text">​​"Latitude: %1$.4f \n Longitude: %2$.4f  \n Timestamp: %3$tr"</string>
+    <string name="alamat_text">"Nama: $1$s \n Alamat: %1$s \n Timestamp: %2$tr"</string>
 </resources>

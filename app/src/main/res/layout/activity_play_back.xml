@@ -1,9 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".PlayBack">
+    <VideoView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/videoViewId"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
 
-</android.support.constraint.ConstraintLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewId"
+        android:layout_below="@id/videoViewId"
+        android:text="Playlist"
+        android:layout_marginStart="0dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:padding="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="0dp" />
+    <ListView
+        android:id="@+id/ListViewId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewId"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"/>
+    <TextView
+        android:id="@+id/textLoading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textViewId"
+        android:layout_alignTop="@+id/videoViewId"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="91dp"
+        android:layout_marginBottom="84dp"
+        android:text="Loading..."
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+</android.widget.RelativeLayout>

@@ -57,4 +57,20 @@
         android:layout_below="@+id/button_next"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
+    <Button
+        android:id="@+id/btnPlayback"
+        android:layout_width="match_parent"
+        android:textColor="@color/White"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:background="@color/Blue"
+        android:text="palyback"
+        android:layout_marginTop="560dp"/>
+
+    <Button
+        android:id="@+id/btnNexkLo"
+        android:layout_width="160dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="475dp"
+        android:text="pindah lokasi" />
 </RelativeLayout>

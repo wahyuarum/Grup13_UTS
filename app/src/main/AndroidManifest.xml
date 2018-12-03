@@ -10,7 +10,9 @@
         android:name="com.google.android.gms.vision.DEPENDENCIES"
         android:value="face" />
 
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -48,10 +50,24 @@
         <activity android:name=".DetailActivity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".FcmActivity" />
-        <activity android:name=".Main2Activity"
+        <activity
+            android:name=".Main2Activity"
             android:screenOrientation="portrait">
             <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LokasiActivity">
+            <meta-data
+                android:name="com.google.android.geo.API_KEY"
+                android:value="AIzaSyA2UIfJNAiuhfAsNkOZFpbCl2qf9hei70U" />
+             
+        </activity>
+        <activity android:name=".PlayBack"
+            android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>

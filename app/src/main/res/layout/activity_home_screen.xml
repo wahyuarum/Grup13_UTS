@@ -7,10 +7,14 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="303dp"
+        android:layout_height="174dp"
         android:layout_above="@+id/nama_app"
+        android:layout_alignStart="@+id/textView"
         android:layout_alignParentTop="true"
+        android:layout_marginStart="-30dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginBottom="31dp"
         android:background="@drawable/meme5" />
 
     <TextView
@@ -36,12 +40,14 @@
 
     <Button
         android:id="@+id/button_next"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="252dp"
+        android:layout_height="30dp"
         android:layout_above="@+id/button_meme"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
-        android:layout_marginBottom="12dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginBottom="19dp"
         android:background="@color/Blue"
         android:text="Lihat Meme"
         android:textColor="@color/White"
@@ -49,14 +55,37 @@
 
     <Button
         android:id="@+id/button_meme"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="243dp"
+        android:layout_height="26dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="12dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginBottom="68dp"
         android:background="@color/Blue"
         android:text="Meme Photo"
         android:textColor="@color/White"
         android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnNexkLo"
+        android:layout_width="160dp"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="475dp"
+        android:text="pindah lokasi" />
+    <Button
+        android:id="@+id/btnPlayback"
+        android:layout_width="130dp"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="180dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="475dp"
+        android:text="mediaPlayback" />
 </RelativeLayout>
