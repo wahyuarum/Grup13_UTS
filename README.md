@@ -1,4 +1,4 @@
-# Grup13_UTS
+# Grup13_UAS
 
 # Nama & No Absen
 Dimas Naufal Fikri      (8)
@@ -6,7 +6,11 @@ Faisal Firman Hakim     (10)
 Wahyu Arum              (26)
 
 # Judul aplikasi dan deskripsi singkatnya 
-Meme Creator adalah aplikasi yang berisi tentang karakter-karakter meme beserta penjelasannya dan mengganti wajah dengan meme 
+Meme Creator adalah aplikasi yang berisi tentang karakter-karakter meme beserta penjelasannya dan mengganti wajah dengan meme dengan ditambah dengan cek lokasi saat  ini , melihat widget dan melihat video playback yang ditayangkan dengan karakter video meme yang lucu
+
+#Screenshoots
+
+
 
 # Requirement (Android OS and level)
  minSdkVersion yang digunakan 15 
